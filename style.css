@@ -25,25 +25,18 @@ background:#333;
 color:white;
 }
 button:hover{ background:#555; }
-
-
-#amount {
-  appearance: textfield;
-  -moz-appearance: textfield;
-  -webkit-appearance: none;
-}
-
-/* Chrome / Edge / Opera */
-#amount::-webkit-inner-spin-button,
-#amount::-webkit-outer-spin-button {
-  -webkit-appearance: none !important;
-  margin: 0;
+input{
+  appearance: none;
 }
 
 
 
-}
+
+
+
+
 
 
 @media(max-width:500px){ input, select, button{ font-size:16px; } }
+
 
