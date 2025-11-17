@@ -1,0 +1,28 @@
+body{
+background:#121212;
+color:white;
+display:flex;
+justify-content:center;
+padding:20px;
+font-family:Arial;
+}
+.box{
+background:#1e1e1e;
+padding:20px;
+width:100%;
+max-width:350px;
+border-radius:15px;
+box-shadow:0 0 10px rgba(0,0,0,0.5);
+text-align:center;
+}
+input, select, button{
+width:100%;
+padding:10px;
+margin-top:10px;
+border-radius:8px;
+border:none;
+background:#333;
+color:white;
+}
+button:hover{ background:#555; }
+@media(max-width:500px){ input, select, button{ font-size:16px; } }
